@@ -5,5 +5,6 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.9.0"]]
   :main ^:skip-aot defaulting-the-namespace.core
+  :repl-options {:init-ns defaulting-the-namespace.new-default}
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
